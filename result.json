@@ -1,11 +1,13 @@
 {"objektNameOne": [
   {
     "id": "one",
-    "description": "This im my object with id one"
+    "description": "This im my object with id one",
+     "title": "This is the title for object with id one"
   },
   {
     "id": "two",
-    "description": "This im my object with id two"
+    "description": "This im my object with id two",
+     "title": "This is the title for object with id two"
   },
   {
     "id": "three",

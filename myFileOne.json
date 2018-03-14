@@ -1,11 +1,15 @@
 {"objektNameOne": [
   {
-    "id": "OneOne",
-    "cDescription": "This im my object with id OneOne"
+    "id": "one",
+    "description": "This im my object with id one"
   },
   {
-    "id": "OneTwo",
-    "cDescription": "This im my object with id OneTwo"
+    "id": "two",
+    "description": "This im my object with id two"
+  },
+  {
+    "id": "three",
+    "description": "This im my object with id three"
   }
  ]
 }

@@ -3,11 +3,11 @@ Python Script to merge two JSON files
 
 1. Install python e.g. from https://www.python.org/downloads/
 
-2. Download the jsonMerging.py
+2. Download the jsonMerge.py
 
-3. Edit the jsonMerging.py and adapt it to your needs (File path, object names, merge key name etc.)
+3. Edit the jsonMerge.py and adapt it to your needs (File path, object names, merge key name etc.)
 
-4. Doubleclick the jsonMerging.py to execute the script.
+4. Doubleclick the jsonMerge.py to execute the script.
 
 5. The result.json will be generated into the given destination.
 

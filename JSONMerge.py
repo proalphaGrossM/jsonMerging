@@ -4,8 +4,8 @@ import json, os
 # the first file must be the one with all keys because
 # the script iterates over them and searches for the
 # one with the same key in the second json file
-filename1 = "ttInstanzKatalog.json"
-filename2 = "ttObjektInhalt.json"
+filename1 = "myFileOne.json"
+filename2 = "myFileTwo.json"
 resultFilename = "result.json"
 
 # define the key name by which the json should be merged
@@ -24,8 +24,8 @@ objektInhaltJson = json.load(open(filename2))
 
 log.write("JSON files read successfully\n")
 
-for item in instanzKatalogJson["ttInstanzKatalog"]:
-	for item2 in objektInhaltJson["ttObjektInhalt"]:  
+for item in instanzKatalogJson["objektNameOne"]:
+	for item2 in objektInhaltJson["objektName2"]:  
 		if item[mergeKeyName1] == item2[mergeKeyName2]:
 			log.write("combining " + item[mergeKeyName1] +"\n")
 			item.update(item2)

@@ -1,0 +1,15 @@
+{"objektNameTwo": [
+  {
+    "id": "one",
+    "title": "This is the title for object with id one"
+  },
+  {
+    "id": "two",
+    "title": "This is the title for object with id two"
+  },
+  {
+    "id": "lost",
+    "title": "This entry will get lost with the current implementation"
+  }
+ ]
+}

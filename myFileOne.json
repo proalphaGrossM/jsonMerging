@@ -1,0 +1,11 @@
+{"myFileOne": [
+  {
+    "id": "OneOne",
+    "cDescription": "This im my object with id OneOne"
+  },
+  {
+    "id": "OneTwo",
+    "cDescription": "This im my object with id OneTwo"
+  }
+ ]
+}

@@ -19,18 +19,18 @@ logFilename = "log.txt"
 log = open(logFilename, 'w')
 
 # Open the 2 json files and read its json
-instanzKatalogJson = json.load(open(filename1))
-objektInhaltJson = json.load(open(filename2))
+json1 = json.load(open(filename1))
+json2 = json.load(open(filename2))
 
 log.write("JSON files read successfully\n")
 
-for item in instanzKatalogJson["objektNameOne"]:
-	for item2 in objektInhaltJson["objektName2"]:  
+for item in json1["objektNameOne"]:
+	for item2 in json2["objektName2"]:  
 		if item[mergeKeyName1] == item2[mergeKeyName2]:
 			log.write("combining " + item[mergeKeyName1] +"\n")
 			item.update(item2)
 
 f = open(resultFilename, 'w')
-json.dump(instanzKatalogJson, f)
+json.dump(json1, f)
 f.close()
 log.close()
